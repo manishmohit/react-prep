@@ -1,0 +1,85 @@
+/* Container for multiple cards */
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Improved card styles */
+  .res-card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+  }
+  
+  /* Style for the card's logo or image */
+  .res-logo {
+    width: 100%;
+  }
+  
+  /* Ensure the card content doesn't overflow */
+  .res-card > * {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  /* Improved card hover effect */
+  .res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  
+  /* Header styles (unchanged) */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+
+  .nav-items {
+    padding:0px 20px;
+  }
+  
+  .nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Logo styles (unchanged) */
+  .logo-container {
+    padding: 10px;
+  }
+
+  .filter{
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .shimmer-container {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+  }
+
+  .login {
+    padding: 0px 20px;
+    cursor: pointer
+  }
